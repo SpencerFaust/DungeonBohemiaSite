@@ -1,0 +1,10 @@
+.navbar {
+    position: fixed;
+    background-color: aqua;
+    height: 50px;
+    width: 98vw;
+    margin: 10px;
+}
+.links {
+    float: right;
+}
