@@ -3,9 +3,8 @@ import {
   HashRouter as Router,
   Route,
   Redirect,
-  // Switch,
+  Switch,
 } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from '../Navbar/Navbar'
 
@@ -17,22 +16,24 @@ import Projects from '../Projects/Projects';
 function App() {
   return (
     <div className="App">
-    <Router>
+      <Router>
         <Navbar />
-      {/* <Redirect exact from='/' to='/home' /> */}
-      <Route
-        path="/About"
-        component={About}
-        />
-      <Route
-        path="/Projects"
-        component={Projects}
-        />
-      <Route
-        path="/Home"
-        component={Home}
-        />
-    </Router>
+        <Switch>
+          <Redirect exact from='/' to='/Home' />
+          <Route
+            path="/About"
+            component={About}
+            />
+          <Route
+            path="/Projects"
+            component={Projects}
+            />
+          <Route
+            path="/Home"
+            component={Home}
+            />
+          </Switch>
+      </Router>
     </div>
   );
 }
