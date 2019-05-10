@@ -1,11 +1,11 @@
 .navbar {
     position: fixed;
-    background-color: aqua;
     height: 50px;
     width: 98vw;
     margin: 10px;
 }
 .links {
+    color: aqua;
     height: 38px;
     font-weight: bold;
     float: right;
@@ -16,5 +16,6 @@
     padding-top: 12px;
 }
 .links:hover {
-    background-color: aquamarine; 
+    background-color: aqua; 
+    color: #282c34;
 }
