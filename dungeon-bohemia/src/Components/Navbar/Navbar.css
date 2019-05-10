@@ -5,7 +5,7 @@
     margin: 10px;
 }
 .links {
-    color: aqua;
+    color: lightskyblue;
     height: 38px;
     font-weight: bold;
     float: right;
@@ -16,6 +16,6 @@
     padding-top: 12px;
 }
 .links:hover {
-    background-color: aqua; 
+    background-color: lightskyblue; 
     color: #282c34;
 }
