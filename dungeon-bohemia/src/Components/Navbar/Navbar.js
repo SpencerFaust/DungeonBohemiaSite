@@ -6,10 +6,10 @@ class Navbar extends Component {
     render() {
 
     return (
-        <div className="navbar">
-            <div className="links"> 
+        <div className="navbar"> 
+                <Link className="links" to="../App/App.js">Projects</Link>
+                <Link className="links" to="../App/App.js">About</Link>
                 <Link className="links" to="../App/App.js">Home</Link>
-            </div>
         </div>
     );
     };

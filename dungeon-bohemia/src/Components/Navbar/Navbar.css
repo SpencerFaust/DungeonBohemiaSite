@@ -6,9 +6,15 @@
     margin: 10px;
 }
 .links {
+    height: 38px;
     font-weight: bold;
     float: right;
     vertical-align: center;
-    margin: 7px;
     text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+.links:hover {
+    background-color: aquamarine; 
 }
