@@ -12,6 +12,7 @@ import Navbar from '../Navbar/Navbar'
 import Home from '../Home/Home';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             />
           </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }
