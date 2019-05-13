@@ -1,7 +1,9 @@
 .navbar {
-    position: relative;
+    background-color: #282c34;
+    position: fixed;
+    right: 10px;
+    top: 10px;
     height: 50px;
-    width: 98vw;
     margin: 10px;
 }
 .links {
